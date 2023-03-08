@@ -1,0 +1,27 @@
+.main-producto{
+    height: 230%;
+    div{
+        div{
+            div{
+                button{
+                    height: 45px;
+                    width: 40%;
+                    color: rgb(0, 0, 0);
+                    outline: none;
+                    border: none;
+                    background-color:#FEEA00;
+                    font-weight: bold;
+                    transition: all 0.4s;
+                    cursor: pointer;
+                    border-radius: 5px;
+                    &:hover{
+                        border: 1px solid #000000;
+                        background-color: transparent;
+                        color: #000000;
+                        transition: all 0.9s;
+                    }
+                }
+            }
+        }
+    }
+}

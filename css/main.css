@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  height: 20%; }
+  header .container .navbar-brand {
+    font-size: 22px; }
+  header .container .nav-item a {
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 15px;
+    border-radius: 12px; }
+    header .container .nav-item a:hover {
+      color: #f5f508;
+      background-color: black;
+      border-radius: 12px;
+      transition: 0.9s; }
+
+main {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 105%; }
+  main .info-main .btn2 {
+    height: 45px;
+    width: 40%;
+    color: black;
+    outline: none;
+    border: none;
+    background-color: #FEEA00;
+    font-weight: bold;
+    transition: all 0.4s;
+    cursor: pointer;
+    border-radius: 5px; }
+    main .info-main .btn2:hover {
+      border: 1px solid #000000;
+      background-color: transparent;
+      color: #000000;
+      transition: all 0.9s; }
+  main .info-main img {
+    height: 350px;
+    width: 500px; }
+
+footer {
+  color: white;
+  background-color: black; }
+
+main form {
+  width: 50%; }
+  main form button {
+    height: 45px;
+    width: 40%;
+    color: black;
+    outline: none;
+    border: none;
+    background-color: #FEEA00;
+    font-weight: bold;
+    transition: all 1s;
+    cursor: pointer;
+    border-radius: 5px; }
+    main form button:hover {
+      border: 1px solid #000000;
+      background-color: transparent;
+      color: #000000;
+      transition: all 0.9s; }
+
+.main-producto {
+  height: 230%; }
+  .main-producto div div div button {
+    height: 45px;
+    width: 40%;
+    color: black;
+    outline: none;
+    border: none;
+    background-color: #FEEA00;
+    font-weight: bold;
+    transition: all 0.4s;
+    cursor: pointer;
+    border-radius: 5px; }
+    .main-producto div div div button:hover {
+      border: 1px solid #000000;
+      background-color: transparent;
+      color: #000000;
+      transition: all 0.9s; }
+
+body .main-sobre {
+  height: 80%; }
+  body .main-sobre .contenedor-info {
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 3px 3px 3px black;
+    width: 80%; }
+    body .main-sobre .contenedor-info .titulo-sobre {
+      border: 1px solid black;
+      background-color: rgba(255, 255, 73, 0.705); }
