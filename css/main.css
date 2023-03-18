@@ -96,3 +96,9 @@ body .main-sobre {
     body .main-sobre .contenedor-info .titulo-sobre {
       border: 1px solid black;
       background-color: rgba(255, 255, 73, 0.705); }
+
+.main-ayuda {
+  height: 110%; }
+  .main-ayuda .contenedor-ayuda {
+    padding-left: 10%;
+    padding-right: 10%; }
