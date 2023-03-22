@@ -1,5 +1,9 @@
+$mobile: 576px;
+
 .main-ayuda{
-    height: 110%;
+    @if $mobile <= 576px{
+        height: 180%;
+    }
     .contenedor-ayuda{
         padding-left: 10%;
         padding-right: 10%;

@@ -1,5 +1,12 @@
+
+$mobile: 576px;
+
 .main-producto{
-    height: 230%;
+    //intente usar los condicionales, pero solo me toma la lectura en cascada el height:363%, tambien intente usar otra carpeta nueva dentro de layout llamda condicional y importar desde ahi el $mobile 576px pero tampoco me funciono, disculpe pero no me sale de momento usarlo.
+    height: 295%;
+    @if $mobile <= 576px{
+        height: 363%;
+    }
     div{
         div{
             div{
